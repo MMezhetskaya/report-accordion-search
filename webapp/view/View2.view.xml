@@ -1,0 +1,25 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="report.controller.View1" displayBlock="true">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+			    	<mvc:XMLView viewName="report.view.Accordion"/>
+			    	<Panel xmlns="sap.m" width="auto" expandable="true" expanded="true" id="panel1" headerText="sdhksjghkjghkjghkj">
+			    	    <headerToolbar>
+			    	        <Toolbar id="toolbar1">
+			    	            <Title text="Header"/>
+			    	            <ToolbarSpacer/>
+			    	            <Button icon="sap-icon://settings"/>
+			    	            </Toolbar>
+			    	        
+			    	    </headerToolbar>
+			    	    <content>
+			    	        <Text text="Panel Content" id="text0"/>
+			    	        
+			    	    </content>
+			    	    </Panel>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
